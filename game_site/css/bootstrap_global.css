@@ -1,0 +1,98 @@
+html {
+	direction: ltr;
+	font-size: 12px;
+	font-family: Verdana, Helvetica, sans-serif;
+}
+*, *::before, *::after {
+            box-sizing: border-box;
+}
+body {
+	padding-top: 70px;
+    background-color: rgb(0, 0, 0);
+	background-image: url("../img/zwartevilt.png");
+	background-repeat: repeat;
+	color: rgb(255, 255, 255);
+	overflow-x: hidden;
+}
+a:link { /* a normal unvisited link */
+	color: #AAAAAA;
+	text-decoration: none;
+}
+a:visited { /*  a link the user has visited */
+	color: #AAAAAA;
+}
+/* a link when the user mouses over it */
+a:hover {
+	color: #A3A3A3;
+	text-decoration: underline;
+}
+a:active { /* - a link the moment it is clicked */
+	color: #8B0000;
+}
+.clear {
+	clear: both;
+}
+.section_label {
+	background-color: #383838;
+	border: ridge #5E5E5E;
+	font-size: 16px;
+	font-weight: bold;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	width: 100%;
+	margin: auto;
+	text-align: center;
+}
+input, textarea, select {
+	width: 250px;
+	margin: 3px 0px 3px 0px;
+	padding: 4px;
+	box-sizing: border-box;
+    box-shadow: 0px 0px 8px #8B0000; 
+    -moz-box-shadow: 0px 0px 8px #8B0000; 
+    -webkit-box-shadow: 0px 0px 8px #8B0000; 
+}
+fieldset {
+	border: 1px solid #5E5E5E;
+}
+legend {
+	padding: 6px;
+}
+.alternate:nth-child(odd) {
+    background-color: #383838;
+}
+::selection {
+    background-color: #8B0000;
+}
+.user-staff-rank0 {
+	color: #7B3F00;
+}
+.user-staff-rank1 {
+	font-weight: bold;
+	color: #FFC469;
+}
+.user-staff-rank2 {
+	font-weight: bold;
+	color: #FFB00F;
+}
+.user-staff-rank3 {
+	font-weight: bold;
+	color: #FF6103;
+}
+.user-staff-rank4 {
+	font-weight: bold;
+	color: #FF0000;
+}
+table {
+	width: 100%;
+}
+table, td, th {
+	border: 1px solid #5E5E5E;
+}
+/*
+.gender-m::before {
+	content: "\26A4";
+}
+.gender-m::after {
+	content: "\2642";
+}*/
